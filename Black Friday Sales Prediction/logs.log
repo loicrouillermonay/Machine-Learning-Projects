@@ -1,0 +1,170 @@
+2020-08-09 16:14:47,653:INFO:PyCaret Regression Module
+2020-08-09 16:14:47,687:INFO:version 2.0
+2020-08-09 16:14:47,687:INFO:Initializing setup()
+2020-08-09 16:14:47,694:INFO:USI: 5286
+2020-08-09 16:14:47,695:INFO:setup(data=(550068, 12), target=Purchase, train_size=0.7, sampling=False, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=robust, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, transform_target=True,
+                    transform_target_method=box-cox, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=707, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-08-09 16:14:47,695:INFO:Checking environment
+2020-08-09 16:14:47,696:INFO:python_version: 3.7.7
+2020-08-09 16:14:47,696:INFO:python_build: ('default', 'May  6 2020 04:59:01')
+2020-08-09 16:14:47,696:INFO:machine: x86_64
+2020-08-09 16:14:47,759:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-08-09 16:14:47,761:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging. 
+2020-08-09 16:14:47,761:INFO:Checking libraries
+2020-08-09 16:14:47,763:INFO:pd==1.0.5
+2020-08-09 16:14:47,763:INFO:numpy==1.18.5
+2020-08-09 16:14:49,120:INFO:sklearn==0.23.1
+2020-08-09 16:14:51,027:WARNING:xgboost not found
+2020-08-09 16:14:52,073:WARNING:lightgbm not found
+2020-08-09 16:14:52,541:INFO:catboost==0.24
+2020-08-09 16:14:55,091:INFO:mlflow==1.10.0
+2020-08-09 16:14:55,092:INFO:Checking Exceptions
+2020-08-09 16:14:55,096:INFO:Preloading libraries
+2020-08-09 16:14:55,097:INFO:Preparing display monitor
+2020-08-09 16:14:55,187:INFO:Importing libraries
+2020-08-09 16:14:58,241:INFO:Copying data for preprocessing
+2020-08-09 16:14:58,781:INFO:Declaring global variables
+2020-08-09 16:14:58,793:INFO:Declaring preprocessing parameters
+2020-08-09 16:14:58,794:INFO:Importing preprocessing module
+2020-08-09 16:18:04,672:INFO:PyCaret Regression Module
+2020-08-09 16:18:04,674:INFO:version 2.0
+2020-08-09 16:18:04,675:INFO:Initializing setup()
+2020-08-09 16:18:04,675:INFO:USI: c983
+2020-08-09 16:18:04,678:INFO:setup(data=(550068, 12), target=Purchase, train_size=0.7, sampling=False, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=robust, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=True, cluster_iter=20,
+                    polynomial_features=True, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=True, feature_ratio=False, interaction_threshold=0.01, transform_target=True,
+                    transform_target_method=box-cox, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=707, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-08-09 16:18:04,679:INFO:Checking environment
+2020-08-09 16:18:04,679:INFO:python_version: 3.7.7
+2020-08-09 16:18:04,679:INFO:python_build: ('default', 'May  6 2020 04:59:01')
+2020-08-09 16:18:04,679:INFO:machine: x86_64
+2020-08-09 16:18:04,679:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-08-09 16:18:04,682:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging. 
+2020-08-09 16:18:04,683:INFO:Checking libraries
+2020-08-09 16:18:04,683:INFO:pd==1.0.5
+2020-08-09 16:18:04,683:INFO:numpy==1.18.5
+2020-08-09 16:18:04,683:INFO:sklearn==0.23.1
+2020-08-09 16:18:04,728:WARNING:xgboost not found
+2020-08-09 16:18:04,740:WARNING:lightgbm not found
+2020-08-09 16:18:04,741:INFO:catboost==0.24
+2020-08-09 16:18:04,741:INFO:mlflow==1.10.0
+2020-08-09 16:18:04,741:INFO:Checking Exceptions
+2020-08-09 16:18:04,749:INFO:Preloading libraries
+2020-08-09 16:18:04,750:INFO:Preparing display monitor
+2020-08-09 16:18:04,829:INFO:Importing libraries
+2020-08-09 16:18:04,842:INFO:Copying data for preprocessing
+2020-08-09 16:18:05,086:INFO:Declaring global variables
+2020-08-09 16:18:05,094:INFO:Declaring preprocessing parameters
+2020-08-09 16:18:05,094:INFO:Importing preprocessing module
+2020-08-09 16:24:58,100:INFO:PyCaret Regression Module
+2020-08-09 16:24:58,101:INFO:version 2.0
+2020-08-09 16:24:58,101:INFO:Initializing setup()
+2020-08-09 16:24:58,102:INFO:USI: 4660
+2020-08-09 16:24:58,106:INFO:setup(data=(550068, 12), target=Purchase, train_size=0.7, sampling=False, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=robust, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=True, outliers_threshold=0.1,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=True, cluster_iter=20,
+                    polynomial_features=True, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=True, feature_ratio=False, interaction_threshold=0.01, transform_target=True,
+                    transform_target_method=box-cox, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=707, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-08-09 16:24:58,107:INFO:Checking environment
+2020-08-09 16:24:58,107:INFO:python_version: 3.7.7
+2020-08-09 16:24:58,107:INFO:python_build: ('default', 'May  6 2020 04:59:01')
+2020-08-09 16:24:58,107:INFO:machine: x86_64
+2020-08-09 16:24:58,108:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-08-09 16:24:58,116:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging. 
+2020-08-09 16:24:58,116:INFO:Checking libraries
+2020-08-09 16:24:58,116:INFO:pd==1.0.5
+2020-08-09 16:24:58,116:INFO:numpy==1.18.5
+2020-08-09 16:24:58,116:INFO:sklearn==0.23.1
+2020-08-09 16:24:58,694:INFO:xgboost==1.1.1
+2020-08-09 16:24:58,741:INFO:lightgbm==2.3.1
+2020-08-09 16:24:58,741:INFO:catboost==0.24
+2020-08-09 16:24:58,741:INFO:mlflow==1.10.0
+2020-08-09 16:24:58,742:INFO:Checking Exceptions
+2020-08-09 16:24:58,746:INFO:Preloading libraries
+2020-08-09 16:24:58,747:INFO:Preparing display monitor
+2020-08-09 16:24:58,814:INFO:Importing libraries
+2020-08-09 16:24:58,828:INFO:Copying data for preprocessing
+2020-08-09 16:24:59,072:INFO:Declaring global variables
+2020-08-09 16:24:59,082:INFO:Declaring preprocessing parameters
+2020-08-09 16:24:59,082:INFO:Importing preprocessing module
+2020-08-09 16:25:00,217:INFO:Creating preprocessing pipeline
+2020-08-09 16:27:16,861:INFO:PyCaret Regression Module
+2020-08-09 16:27:16,862:INFO:version 2.0
+2020-08-09 16:27:16,862:INFO:Initializing setup()
+2020-08-09 16:27:16,863:INFO:USI: f72f
+2020-08-09 16:27:16,864:INFO:setup(data=(550068, 12), target=Purchase, train_size=0.7, sampling=False, sample_estimator=None, categorical_features=Occupation, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=robust, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=True, outliers_threshold=0.1,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=True, cluster_iter=20,
+                    polynomial_features=True, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=True, feature_ratio=False, interaction_threshold=0.01, transform_target=True,
+                    transform_target_method=box-cox, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=707, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=True, verbose=True, profile=True)
+2020-08-09 16:27:16,864:INFO:Checking environment
+2020-08-09 16:27:16,864:INFO:python_version: 3.7.7
+2020-08-09 16:27:16,865:INFO:python_build: ('default', 'May  6 2020 04:59:01')
+2020-08-09 16:27:16,865:INFO:machine: x86_64
+2020-08-09 16:27:16,898:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-08-09 16:27:16,899:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging. 
+2020-08-09 16:27:16,899:INFO:Checking libraries
+2020-08-09 16:27:16,899:INFO:pd==1.0.5
+2020-08-09 16:27:16,899:INFO:numpy==1.18.5
+2020-08-09 16:27:17,030:INFO:sklearn==0.23.1
+2020-08-09 16:27:17,224:INFO:xgboost==1.1.1
+2020-08-09 16:27:17,351:INFO:lightgbm==2.3.1
+2020-08-09 16:27:17,460:INFO:catboost==0.24
+2020-08-09 16:27:19,305:INFO:mlflow==1.10.0
+2020-08-09 16:27:19,306:INFO:Checking Exceptions
+2020-08-09 16:27:36,327:INFO:PyCaret Regression Module
+2020-08-09 16:27:36,327:INFO:version 2.0
+2020-08-09 16:27:36,327:INFO:Initializing setup()
+2020-08-09 16:27:36,327:INFO:USI: be8f
+2020-08-09 16:27:36,328:INFO:setup(data=(550068, 12), target=Purchase, train_size=0.7, sampling=False, sample_estimator=None, categorical_features=['Occupation'], categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=robust, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=True, outliers_threshold=0.1,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=True, cluster_iter=20,
+                    polynomial_features=True, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=True, feature_ratio=False, interaction_threshold=0.01, transform_target=True,
+                    transform_target_method=box-cox, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=707, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=True, verbose=True, profile=True)
+2020-08-09 16:27:36,328:INFO:Checking environment
+2020-08-09 16:27:36,328:INFO:python_version: 3.7.7
+2020-08-09 16:27:36,328:INFO:python_build: ('default', 'May  6 2020 04:59:01')
+2020-08-09 16:27:36,328:INFO:machine: x86_64
+2020-08-09 16:27:36,328:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-08-09 16:27:36,329:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging. 
+2020-08-09 16:27:36,329:INFO:Checking libraries
+2020-08-09 16:27:36,330:INFO:pd==1.0.5
+2020-08-09 16:27:36,330:INFO:numpy==1.18.5
+2020-08-09 16:27:36,330:INFO:sklearn==0.23.1
+2020-08-09 16:27:36,330:INFO:xgboost==1.1.1
+2020-08-09 16:27:36,330:INFO:lightgbm==2.3.1
+2020-08-09 16:27:36,330:INFO:catboost==0.24
+2020-08-09 16:27:36,330:INFO:mlflow==1.10.0
+2020-08-09 16:27:36,330:INFO:Checking Exceptions
+2020-08-09 16:27:36,330:INFO:Preloading libraries
+2020-08-09 16:27:36,331:INFO:Preparing display monitor
+2020-08-09 16:27:36,365:INFO:Importing libraries
+2020-08-09 16:27:37,034:INFO:Copying data for preprocessing
+2020-08-09 16:27:37,101:INFO:Declaring global variables
+2020-08-09 16:27:37,118:INFO:Declaring preprocessing parameters
+2020-08-09 16:27:37,118:INFO:Importing preprocessing module
+2020-08-09 16:27:38,609:INFO:Creating preprocessing pipeline
