@@ -11,3 +11,9 @@ The purpose of this project is to practice insights and visualisations of a data
 ## Human Activity Recognition Using Smartphones
 
 In this project, we calculate a model by which a smartphone can detect its owner’s activity precisely. Activities that are predicted by using the smartphone’s sensors are (1-Walking, 2-Walking upstairs, 3-Walking downstairs, 4-Sitting, 5-Standing or 6-Laying). Highest Achieved precision: 98.8%
+
+## Urban Sound Classification
+
+The goal of this project is to practice audio processing in a classification scenario with Data Handling in Audio domain. This dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes. Audio files are converted to spectrogram images and then are classified with fastai's vision learner.
+
+As of September 8, 2020, among the 7630 participants registered for this specific competition at Analytics Vidhya, this notebook obtained the 16th ranking in the leaderboard with an accuracy of 98% with the train dataset and 77% with the test dataset.
