@@ -18,4 +18,4 @@ In this project, we calculate a model by which a smartphone can detect its owner
 
 The goal of this project is to practice audio processing in a classification scenario with Data Handling in Audio domain. This dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes. Audio files are converted to spectrogram images and then are classified with fastai's vision learner.
 
-As of September 8, 2020, among the 7630 participants registered for this specific competition at Analytics Vidhya, this notebook obtained the 16th ranking in the leaderboard with an accuracy of 98% with the train dataset and 77% with the test dataset.
+As of September 8, 2020, among the 7630 participants registered for this specific competition at Analytics Vidhya, this notebook obtained the 16th ranking in the leaderboard.
