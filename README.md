@@ -2,7 +2,9 @@
 
 ## Black Friday Sales Prediction
 
-A retail company wants to understand the customer purchase behaviour (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers for selected high volume products from last month. The model performance was evaluated on the basis of the prediction of the purchase amount for the test data (test.csv), which contains similar data-points as train except for their purchase amount. Submissions are scored on the root mean squared error (RMSE). Among the 21'300 participants registered for this specific competition at Analytics Vidhya, this notebook obtained a ranking in the top 3% in the leaderboard.
+A retail company wants to understand the customer purchase behaviour (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers for selected high volume products from last month. The model performance was evaluated on the basis of the prediction of the purchase amount for the test data (test.csv), which contains similar data-points as train except for their purchase amount. Submissions are scored on the root mean squared error (RMSE). 
+
+Among the 21'300 participants registered for this specific competition at Analytics Vidhya, this notebook obtained a ranking in the top 3% in the leaderboard.
 
 ## 100K UK Used Car - Price Prediction Model
 
