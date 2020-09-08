@@ -17463,3 +17463,7 @@ Urban Sound Classification/Data Sources/test_spectrogram/994.png
 Urban Sound Classification/Data Sources/test_spectrogram/997.png
 Urban Sound Classification/Data Sources/test_spectrogram/998.png
 Urban Sound Classification/Data Sources/test_spectrogram/999.png
+.DS_Store
+Urban Sound Classification/.DS_Store
+Urban Sound Classification/Data Sources/.DS_Store
+Urban Sound Classification/Data Sources/train_spectrogram/.DS_Store
